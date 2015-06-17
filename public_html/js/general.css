@@ -1,0 +1,34 @@
+#container{
+	width: 740px;
+	float:left; height:33px; overflow:hidden;
+}
+#container ul{
+	padding:0px; margin:auto
+}
+#container ul.menu li{
+	float: left;
+	padding-top:9px;
+	padding-bottom:9px;
+	margin-right:2px;
+	font-size:12px; font-weight:bold;
+	color:#fff200;
+	padding-left:25px; padding-right:25px;
+	background:url(../images/bgmenu.jpg);
+	border:solid 1px #24b24c;
+	border-bottom:none;
+	 -moz-border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;border-radius:5px 5px 0px 0px;behavior:url(PIE.htc);
+}
+#container ul.menu li{
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+#container ul.menu li.active{
+	background:url(../images/menuactive.jpg);
+	border:solid 1px #a4eab7;
+	border-bottom:none;
+	
+	color:#666666;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
